@@ -1,9 +1,11 @@
 ## Overview
-This project is an AI-powered email assistant for property managers. It:
-- Connects to a Gmail inbox
+This project is an example ai agent for property managers. The app:
+- Connects to an email client
 - Triages unread messages
 - Generates draft replies using an LLM (OpenAI GPT-4.1)
 - Triggers relevant workflows (such as creating action items)
+
+![Demo](https://raw.githubusercontent.com/ejm01/assets/main/example-agent.gif)
 
 ## Features
 - **Connects to a Gmail inbox** using IMAP (via `imaplib`)
